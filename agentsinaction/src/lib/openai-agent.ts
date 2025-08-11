@@ -25,7 +25,6 @@ export class OpenAIAgentService {
         instructions: config.instructions,
         model: config.model,
         tools: config.tools || [],
-        file_ids: config.file_ids || [],
         metadata: config.metadata || {},
       });
       
@@ -55,7 +54,6 @@ export class OpenAIAgentService {
         instructions: config.instructions,
         model: config.model,
         tools: config.tools,
-        file_ids: config.file_ids,
         metadata: config.metadata,
       });
       

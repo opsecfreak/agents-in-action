@@ -42,10 +42,6 @@ Edit `.env.local` and add your OpenAI credentials:
 OPENAI_API_KEY=your_openai_api_key_here
 OPENAI_ORG_ID=your_org_id_here  # Optional
 OPENAI_PROJECT_ID=your_project_id_here  # Optional
-
-# Next.js Configuration
-NEXTAUTH_SECRET=your_nextauth_secret_here
-NEXTAUTH_URL=http://localhost:3000
 ```
 
 ### 3. Start Development Server
@@ -142,8 +138,6 @@ const run = await createRun(threadId, agent.id);
 | `OPENAI_API_KEY` | Your OpenAI API key | Yes |
 | `OPENAI_ORG_ID` | OpenAI organization ID | No |
 | `OPENAI_PROJECT_ID` | OpenAI project ID | No |
-| `NEXTAUTH_SECRET` | Secret for session encryption | Yes |
-| `NEXTAUTH_URL` | Application URL | Yes |
 
 ## Technologies Used
 
